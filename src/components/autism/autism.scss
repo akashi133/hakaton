@@ -1,34 +1,43 @@
 .autism {
-  display: flex;
-  margin: 200px;
-  align-items: center;
-  text-align: start;
-  &__desc {
-    color: #666666;
-    width: 400px;
-    h1 {
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 78px;
-      color: #474747;
-    }
-    span {
-        font-size: 18px;
-    }
-  }
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 200px;
 
-  .img1 {
-    img {
-        width: 200px;
-        height: 150px;
 
-    }
-  }
-
-  .img_block {
-    img {
+    &__desc {
+        color: #666666;
         width: 400px;
-        height: 250px;
+        text-align: end;
+
+        h1 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 78px;
+            color: #474747;
+        }
+
+        p {
+            font-size: 16px;
+        }
     }
-  }
+
+    .img1 {
+        img {
+            width: 200px;
+            height: 150px;
+
+        }
+    }
+
+    .img_block {
+        text-align: center;
+
+        img {
+            width: 400px;
+            height: 350px;
+        }
+    }
 }

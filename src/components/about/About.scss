@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  &__desc {
+    color: #666666;
+    width: 400px;
+    // text-align: center;
+
+    h1 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 78px;
+      color: #474747;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .img1 {
+    img {
+      width: 200px;
+      height: 150px;
+
+    }
+  }
+
+  .img_block {
+    text-align: center;
+    img {
+      width: 400px;
+      height: 250px;
+    }
+  }
+}
