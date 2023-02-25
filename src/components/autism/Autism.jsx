@@ -1,16 +1,23 @@
 import React from 'react';
+import { aut } from '../../assets/img/logo';
 import './autism.scss';
 
 const Autism = () => {
   return (
     <div className="autism">
-      <h1>Your Private Online Marketplace Where Socielities That Comprise Your Personal World</h1>
+      <h1>О нас</h1>
       <div className="autism__desc">
         <span>
-          Your private online marketplace where you can trade goods and services with family,
-          friends, neighbors, classmates, co-workers, and members of the many other communities that
-          comprise your personal world.
+          Наша миссия - создать будущее для детей с аутизмом. ОО «Рука в руке» создано по инициативе
+          родителей и является некоммерческой организацией. На сегодня мы одна из немногих
+          организаций в стране, оказывающих абилитационные услуги детям с аутизмом. Вся деятельность
+          по оснащению кабинетов, приобретению учебно- наглядных пособий, мероприятия с детьми для
+          социализации проходит в рамках реализации проектов или пожертвований частных лиц и
+          бизнеса.
         </span>
+      </div>
+      <div className="img_block">
+        <img src={aut} alt="" />
       </div>
     </div>
   );

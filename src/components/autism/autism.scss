@@ -1,13 +1,21 @@
 .autism {
-    margin: 200px;
-    h1 {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 78px;
-        color: #474747;
-    }
+  display: flex;
+  margin: 200px;
+  h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 78px;
+    color: #474747;
+  }
 
-    &__desc {
-        color: #666666;
+  &__desc {
+    color: #666666;
+    width: 400px;
+  }
+
+  .img_block {
+    img {
+        width: 300px;
     }
+  }
 }
