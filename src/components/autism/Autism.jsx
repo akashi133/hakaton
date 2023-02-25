@@ -22,6 +22,7 @@ const Autism = () => {
       <div className="img_block">
         <img src={aut} alt="" />
       </div>
+      
     </div>
   );
 };
