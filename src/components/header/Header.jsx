@@ -14,7 +14,7 @@ const Header = () => {
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <a href=""><button>Login</button></a>
+        <a href="/signin"><button>LOGIN</button></a>
     </header>
   );
 };
