@@ -16,6 +16,9 @@ const Autism = () => {
           бизнеса.
         </span>
       </div>
+      <div className='img1'>
+        <img src="http://kakrisovat.top/wp-content/uploads/2019/01/r9.jpg" alt="" />
+      </div>
       <div className="img_block">
         <img src={aut} alt="" />
       </div>
